@@ -27,6 +27,35 @@ To learn more about Next.js, take a look at the following resources:
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
+# Crypto Weather Nexus 🌦️💰
+
+## 📦 Setup Instructions
+1. Clone the repository
+2. Run `npm install`
+3. Start with `npm run dev`
+
+## 🚀 Live Site
+[https://crypto-weather-nexus.vercel.app](https://crypto-weather-nexus.vercel.app)
+
+## 🧠 Design Decisions
+- Next.js 13+ with App Router
+- TailwindCSS for styling
+- CoinGecko API for crypto prices
+- OpenWeather API for weather
+- GNews API for news
+- Recharts for analytics graphs
+- SSE for real-time notifications
+
+## 🧩 Challenges & Resolutions
+- **SSE setup in Next.js** was tricky → Solved with custom `/api/notifications`
+- **CoinGecko rate limits** → Added delay + fallback handling
+- **Linting errors** → Installed specific TypeScript version (4.9.5)
+
+## 📄 Hint Report
+- 0 errors, 1 warning, 13 hints
+- Stored in: `hint-report/file--D--Projects-CryptoWeather.html`
+
+
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
 ## Deploy on Vercel
